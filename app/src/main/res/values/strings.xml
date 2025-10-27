@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Devin_prak4</string>
+    <string-array name="status_pernikahan">
+        <item>Belum Menikah</item>
+        <item>Menikah</item>
+        <item>Cerai Hidup</item>
+        <item>Cerai Mati</item>
+    </string-array>
+
+</resources>
