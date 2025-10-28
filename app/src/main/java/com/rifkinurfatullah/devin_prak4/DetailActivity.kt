@@ -62,7 +62,7 @@ class DetailActivity : AppCompatActivity() {
 
             binding.btnDelete.setOnClickListener {
                 executor.diskIO.execute {
-                    warga?.let { dao.deleteAll() } // ganti delete(warga) kalau kamu tambahkan di DAO
+                    warga?.let { dao.deleteAll() }
                 }
                 runOnUiThread {
                     Toast.makeText(this, "Data dihapus", Toast.LENGTH_SHORT).show()
